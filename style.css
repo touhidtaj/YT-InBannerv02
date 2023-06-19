@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.tta_container {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.tta_top {
+  width: 300px;
+  background-color: black;
+  height: 32px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.tta_bottom {
+  width: 300px;
+  background-color: black;
+  height: 32px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.sub {
+  width: 127px;
+  height: 33px;
+  position: absolute;
+  bottom: 5px;
+  left: 82px;
+}
